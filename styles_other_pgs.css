@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+#hdng{
+    background-color: rgb(60, 182, 226);
+    color: black;
+    padding: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 45vh;
+}
+
+#usb1 {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#usb2 {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.text {
+    margin-left: 200px; 
+    font-size: 29px;
+}
+
+.pur {
+    background-color: rgb(60, 182, 226);
+    color: rgb(2, 34, 43);
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.pur:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s;
+}
+
+#but{
+    padding : 6px;
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;    
+}
+
+.about{
+    padding: 100px;
+    font-size: 25px;
+    color: rgb(2, 27, 42);
+    background-color: rgb(218, 228, 241);
+}
+
+#ckttree{
+    background-color: rgb(218, 228, 241);
+    padding: 50px;
+}
+
+#ckttreeimg{
+    border-radius: 10%;
+}
